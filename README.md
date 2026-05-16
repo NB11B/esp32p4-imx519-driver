@@ -27,6 +27,7 @@ The ESP32-P4 uses a MIPI-CSI interface. The Arducam IMX519 uses a standard Raspb
 | MIPI D0± | Lane 0 | CSI D0± | Data lane 0 |
 | MIPI D1± | Lane 1 | CSI D1± | Data lane 1 |
 | MIPI CLK± | Clock | CSI CLK± | Clock lane |
+| XCLK / MCLK | - | - | **Not required** (IMX519 has onboard 24MHz oscillator) |
 | SDA (I2C) | SDA | GPIO 8 | I2C data (IMX519 addr: `0x1A`, VCM addr: `0x0C`) |
 | SCL (I2C) | SCL | GPIO 7 | I2C clock |
 | VCC 3.3V | 3.3V | 3.3V rail | Power |
