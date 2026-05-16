@@ -1,0 +1,3 @@
+dependencies:
+  av_imx519:
+    path: "../../../components/av_imx519"

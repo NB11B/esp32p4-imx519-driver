@@ -1,0 +1,7 @@
+version: "1.0.0"
+description: "Arducam 16MP IMX519 + DW9714 VCM driver for ESP32-P4 MIPI-CSI"
+url: "https://github.com/NB11B/esp32p4-imx519-driver"
+dependencies:
+  espressif/esp_cam_sensor: ">=0.8.0"
+  espressif/esp_video: ">=0.8.0"
+  idf: ">=5.3.0"
