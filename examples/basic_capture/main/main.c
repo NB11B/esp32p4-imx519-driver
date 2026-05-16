@@ -9,8 +9,8 @@
 
 static const char *TAG = "example";
 
-#define CAM_PIN_SDA 8
-#define CAM_PIN_SCL 7
+#define CAM_PIN_SDA 7
+#define CAM_PIN_SCL 8
 
 void app_main(void) {
     ESP_LOGI(TAG, "Starting IMX519 Basic Capture Example");
